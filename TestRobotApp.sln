@@ -3,20 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRobotApp", "TestRobotApp.csproj", "{C750EB65-DEE4-4F76-8F6E-01DF721842AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestRobotApp", "TestRobotApp.csproj", "{C750EB65-DEE4-4F76-8F6E-01DF721842AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Debug|x64.Build.0 = Debug|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Debug|x86.Build.0 = Debug|Any CPU
 		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Release|ARM.Build.0 = Release|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Release|ARM64.Build.0 = Release|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Release|x64.ActiveCfg = Release|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Release|x64.Build.0 = Release|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Release|x86.ActiveCfg = Release|Any CPU
+		{C750EB65-DEE4-4F76-8F6E-01DF721842AC}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {248CD7D6-D17B-4568-A351-7C1AD2B8F897}
 	EndGlobalSection
 EndGlobal
